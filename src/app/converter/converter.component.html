@@ -1,0 +1,48 @@
+<div class="container mt-5">
+    <div class="card">
+
+        <div class="d-flex justify-content-center p-3">
+            <h2>CURRENCY CONVERTER</h2>
+        </div>
+
+        <div class="d-flex justify-content-center p-0 text-muted">
+            <input [(ngModel)]="amount" type="text" value="1">
+        </div>
+        <div class="d-flex justify-content-center py-0 text-muted">
+            <span><p>From USD to INR</p></span>
+        </div>
+
+        <div class="d-flex justify-content-center py-0 text-primary">
+            <span><p> {{amount}} USD = {{75.24*amount}} INR</p></span>
+        </div>
+
+        <!-- <div class="d-flex justify-content-center p-0 text-muted">
+            <table>
+                <tr>
+                    <td><input type="number"></td>
+                    <td>    
+                        <select  id="from">
+                            <option value="AUD">Australian Dollar(AUD)</option>
+                            <option value="INR" selected>Indian Rupee(INR)</option>
+                            <option value="USD">US Dollar(USD)</option>
+                            <option value="RUB">Russian Ruble(RUB)</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="number" disabled></td>
+                    <td>    
+                        <select  id="from">
+                            <option value="AUD">Australian Dollar(AUD)</option>
+                            <option value="INR">Indian Rupee(INR)</option>
+                            <option value="USD" selected>US Dollar(USD)</option>
+                            <option value="RUB">Russian Ruble(RUB)</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div> -->
+
+    </div>
+</div>
